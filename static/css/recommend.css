@@ -1,0 +1,91 @@
+.container1 {
+    margin: 20px;
+}
+
+.container1 h1 {
+    font-size: 56px;
+    text-decoration: underline;
+    padding-bottom: 20px;
+}
+
+.search-form {
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.search-holder {
+    width: 700px;
+    margin-bottom: 20px;
+    padding: 20px 45px;
+    border-radius: 50px;
+}
+
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50px;
+}
+
+.recommended-books {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    min-height: 500px;
+    padding: 20px;
+    position: relative;
+}
+
+.recommended-books.empty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.empty-message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.book-card {
+    border-radius: 10px;
+    background-color: linen;
+    padding-top: 10px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+    margin: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.book-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.book-card-img {
+    height: 250px;
+    max-width: 100%;
+}
+
+.book-card-body {
+    margin: 10px;
+    color: black;
+}
+
+.book-text {
+    font-size: 20px;
+    color: black;
+}
